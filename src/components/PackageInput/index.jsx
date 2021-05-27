@@ -14,7 +14,7 @@ export default function PackageInput() {
       const packageObject = JSON.parse(e.package);
       dispatch(updatePackage(Object.keys(packageObject)));
     } catch (e) {
-      Modal.error({ title: 'Not a json' });
+      Modal.error({ title: 'Not a JSON' });
     }
   };
 
