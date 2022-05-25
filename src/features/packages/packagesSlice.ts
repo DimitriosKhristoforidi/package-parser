@@ -1,5 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { IPackage, IPackagesState } from './packagesSliceTypes';
+import { fetchPackages } from './packageSliceAsync';
+import { Modal } from 'antd';
 
 const initialState: IPackagesState = {
   packagesList: [],
@@ -17,11 +19,21 @@ export const packagesSlice = createSlice({
       state.loading = action.payload;
     },
   },
-  extraReducers: {},
+  extraReducers: (builder) => {
+    builder.addCase(fetchPackages.pending, (state) => {
+      state.loading = true;
+    });
+    builder.addCase(fetchPackages.fulfilled, (state, action) => {
+      state.packagesList = action.payload;
+      state.loading = false;
+    });
+    builder.addCase(fetchPackages.rejected, (state, action) => {
+      Modal.error({ title: action.error.message });
+      state.loading = false;
+    });
+  },
 });
 
-const { actions, reducer } = packagesSlice;
-
-export const { updatePackage, setLoading } = actions;
+const { reducer } = packagesSlice;
 
 export default reducer;

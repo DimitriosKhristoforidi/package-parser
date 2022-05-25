@@ -1,11 +1,9 @@
-import { IPackage } from '../../features/packages/packagesSliceTypes';
+export type IPackageFormFields = {
+  [key: string]: string;
+};
 
-export interface IPackageFormFields {
-  package: string;
-}
+export type IPackageFormInputs = {
+  [key: string]: { name: string; placeholder: string };
+};
 
 export type TOnFinish = (e: IPackageFormFields) => void;
-
-export type TGetPackagesData = (
-  dependenciesList: string[],
-) => Promise<IPackage[]>;

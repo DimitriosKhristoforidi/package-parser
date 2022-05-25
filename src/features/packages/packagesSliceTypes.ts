@@ -9,3 +9,9 @@ export interface IPackagesState {
   packagesList: IPackage[];
   loading: boolean;
 }
+
+export type TGetPackagesData = (
+  dependenciesList: string[],
+) => Promise<IPackage[]>;
+
+export type TValidatePackagesTerm = (packagesTerm: string) => void;

@@ -13,7 +13,6 @@ const api: IApi = {
       },
     });
 
-    console.log(data);
     return data;
   },
 };
