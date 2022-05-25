@@ -1,20 +1,13 @@
-import React, { useReducer } from 'react';
-import { initialState, packageReducer } from './store/reducer';
+import React from 'react';
 import MainPage from './containers/MainPage';
-import { IAppContext } from './types/AppTypes';
-
-export const ContextApp: React.Context<IAppContext> = React.createContext({
-  dispatch: (value) => {},
-  state: initialState,
-});
+import { store } from './app/store';
+import { Provider } from 'react-redux';
 
 const App: React.FC = () => {
-  const [state, dispatch] = useReducer(packageReducer, initialState);
-
   return (
-    <ContextApp.Provider value={{ dispatch, state }}>
+    <Provider store={store}>
       <MainPage />
-    </ContextApp.Provider>
+    </Provider>
   );
 };
 

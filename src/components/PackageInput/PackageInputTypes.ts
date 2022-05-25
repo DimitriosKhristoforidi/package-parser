@@ -1,4 +1,4 @@
-import { IPackage } from '../../types/AppTypes';
+import { IPackage } from '../../features/packages/packagesSliceTypes';
 
 export interface IPackageFormFields {
   package: string;

@@ -1,14 +1,19 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Button, Form, Input, Modal } from 'antd';
-import { ContextApp } from '../../App';
-import { setLoading, updatePackage } from '../../store/actions';
 import { getPackagesData } from './utils';
 import { TOnFinish } from './PackageInputTypes';
+import { useDispatch, useSelector } from 'react-redux';
+import { RootState } from '../../app/types';
+import {
+  setLoading,
+  updatePackage,
+} from '../../features/packages/packagesSlice';
 
 const { TextArea } = Input;
 
 const PackageInput: React.FC = () => {
-  const { dispatch, state } = useContext(ContextApp);
+  const dispatch = useDispatch();
+  const loading = useSelector((state: RootState) => state.packages.loading);
   const [form] = Form.useForm();
 
   const onFinish: TOnFinish = async (e) => {
@@ -30,7 +35,7 @@ const PackageInput: React.FC = () => {
         />
       </Form.Item>
       <Form.Item>
-        <Button loading={state.loading} type='primary' htmlType='submit'>
+        <Button loading={loading} type='primary' htmlType='submit'>
           Find
         </Button>
       </Form.Item>

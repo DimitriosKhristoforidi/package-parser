@@ -1,11 +1,13 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Table } from 'antd';
-import { ContextApp } from '../../App';
 import { columns } from './utils';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../app/types';
 
 const PackagesTable: React.FC = () => {
-  const { state } = useContext(ContextApp);
-  const { loading, packagesList } = state;
+  const { loading, packagesList } = useSelector(
+    (state: RootState) => state.packages,
+  );
 
   return (
     <div className='App'>

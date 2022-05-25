@@ -1,4 +1,4 @@
-import { IPackage } from './AppTypes';
+import { IPackage } from '../features/packages/packagesSliceTypes';
 
 export interface IGetPackageResponseResultElement {
   package: IPackage;

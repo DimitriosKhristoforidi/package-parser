@@ -1,2 +1,0 @@
-export const UPDATE_PACKAGE = 'UPDATE_PACKAGE';
-export const SET_LOADING = 'SET_LOADING';
