@@ -2,18 +2,18 @@ import React from 'react';
 import { Button, Form, Input, Modal } from 'antd';
 import { getPackagesData } from './utils';
 import { TOnFinish } from './PackageInputTypes';
-import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../../app/types';
 import {
   setLoading,
   updatePackage,
 } from '../../features/packages/packagesSlice';
+import { useAppDispatch, useAppSelector } from '../../app/hooks';
 
 const { TextArea } = Input;
 
 const PackageInput: React.FC = () => {
-  const dispatch = useDispatch();
-  const loading = useSelector((state: RootState) => state.packages.loading);
+  const dispatch = useAppDispatch();
+  const loading = useAppSelector((state: RootState) => state.packages.loading);
   const [form] = Form.useForm();
 
   const onFinish: TOnFinish = async (e) => {

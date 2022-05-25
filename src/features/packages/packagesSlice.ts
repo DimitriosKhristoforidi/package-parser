@@ -17,6 +17,7 @@ export const packagesSlice = createSlice({
       state.loading = action.payload;
     },
   },
+  extraReducers: {},
 });
 
 const { actions, reducer } = packagesSlice;
