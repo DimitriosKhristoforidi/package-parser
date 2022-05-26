@@ -15,3 +15,7 @@ export type TGetPackagesData = (
 ) => Promise<IPackage[]>;
 
 export type TValidatePackagesTerm = (packagesTerm: string) => void;
+
+export type TIsArray = (array: any[]) => void
+
+export type TIsEmpty = (line: string) => void

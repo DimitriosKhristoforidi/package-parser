@@ -1,4 +1,4 @@
-import { TGetPackagesData, TValidatePackagesTerm } from './packagesSliceTypes';
+import { TGetPackagesData, TIsArray, TIsEmpty, TValidatePackagesTerm } from './packagesSliceTypes';
 import { EMPTY_JSON, ERROR_MESSAGES } from './constants';
 import API from '../../API';
 
@@ -10,14 +10,25 @@ export const getPackagesData: TGetPackagesData = async (dependenciesList) => {
   );
 };
 
+const isArray: TIsArray = (array) => {
+  if (Array.isArray(array)) {
+    throw new Error();
+  }
+};
+
+const isEmpty: TIsEmpty = (line) => {
+  if (!line || line === EMPTY_JSON) {
+    throw new Error(ERROR_MESSAGES.EMPTY_JSON);
+  }
+};
+
 export const validatePackagesTerm: TValidatePackagesTerm = async (
   packagesTerm,
 ) => {
-  if (!packagesTerm || packagesTerm === EMPTY_JSON) {
-    throw new Error(ERROR_MESSAGES.EMPTY_JSON);
-  }
+  isEmpty(packagesTerm);
   try {
-    JSON.parse(packagesTerm);
+    const json = JSON.parse(packagesTerm);
+    isArray(json);
   } catch {
     throw new Error(ERROR_MESSAGES.NOT_A_JSON);
   }
