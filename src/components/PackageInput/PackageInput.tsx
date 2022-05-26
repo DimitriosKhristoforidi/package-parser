@@ -4,7 +4,7 @@ import { TOnFinish } from './PackageInputTypes';
 import { RootState } from '../../app/types';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import { fetchPackages } from '../../features/packages/packageSliceAsync';
-import { packageFormInputs, packageFormSubmitButton } from './contants';
+import { packageFormInputs, packageFormSubmitButton } from './constants';
 
 const { TextArea } = Input;
 

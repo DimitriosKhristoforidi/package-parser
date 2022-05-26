@@ -1,8 +1,12 @@
+export interface IPackageLinks {
+  npm: string;
+}
+
 export interface IPackage {
   name: string;
   description: string;
   keywords: string[];
-  links: string;
+  links: IPackageLinks[];
 }
 
 export interface IPackagesState {
@@ -16,6 +20,8 @@ export type TGetPackagesData = (
 
 export type TValidatePackagesTerm = (packagesTerm: string) => void;
 
-export type TIsArray = (array: any[]) => void
+export type TIsArray = (array: any[]) => void;
 
-export type TIsEmpty = (line: string) => void
+export type TIsEmpty = (line: string) => void;
+
+export type TGetEmptyPackage = (name: string) => IPackage;
