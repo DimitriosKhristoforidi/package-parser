@@ -6,7 +6,7 @@ export interface IPackage {
   name: string;
   description: string;
   keywords: string[];
-  links: IPackageLinks[];
+  links: IPackageLinks;
 }
 
 export interface IPackagesState {

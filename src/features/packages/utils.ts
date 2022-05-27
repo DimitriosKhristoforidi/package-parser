@@ -13,7 +13,7 @@ export const getEmptyPackage: TGetEmptyPackage = (name) => {
     name,
     description: '-',
     keywords: [],
-    links: [],
+    links: { npm: '' },
   };
 };
 
