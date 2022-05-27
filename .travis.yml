@@ -1,9 +1,19 @@
-sudo: false
-
 language: node_js
 node_js:
-  - 9
+  - 16.15.0
 
 branches:
   only:
     - master
+
+before_deploy:
+  - rvm $(travis_internal_ruby) --fuzzy do ruby -S gem install faraday -v 1.8.0
+
+deploy:
+  provider: heroku
+  app: package-parser
+  api_key: $HEROKU_API_KEY
+
+after_success:
+  - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
