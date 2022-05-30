@@ -1,11 +1,11 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { IPackage, IPackagesState } from './packagesSliceTypes';
 import { fetchPackages } from './packageSliceAsync';
-import { Modal } from 'antd';
 
-const initialState: IPackagesState = {
+export const initialState: IPackagesState = {
   packagesList: [],
   loading: false,
+  alertMessage: '',
 };
 
 export const packagesSlice = createSlice({
@@ -18,6 +18,9 @@ export const packagesSlice = createSlice({
     setLoading: (state, action: PayloadAction<boolean>) => {
       state.loading = action.payload;
     },
+    clearAlertMessage: (state) => {
+      state.alertMessage = '';
+    },
   },
   extraReducers: (builder) => {
     builder.addCase(fetchPackages.pending, (state) => {
@@ -28,12 +31,13 @@ export const packagesSlice = createSlice({
       state.loading = false;
     });
     builder.addCase(fetchPackages.rejected, (state, action) => {
-      Modal.error({ title: action.error.message });
+      state.alertMessage = action.error.message;
       state.loading = false;
     });
   },
 });
 
-const { reducer } = packagesSlice;
+const { reducer, actions } = packagesSlice;
 
+export const { clearAlertMessage } = actions;
 export default reducer;

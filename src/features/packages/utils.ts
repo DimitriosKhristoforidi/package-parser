@@ -6,7 +6,7 @@ import {
   TValidatePackagesTerm,
 } from './packagesSliceTypes';
 import { EMPTY_JSON, ERROR_MESSAGES } from './constants';
-import API from '../../API';
+import API from '../../api';
 
 export const getEmptyPackage: TGetEmptyPackage = (name) => {
   return {
@@ -28,25 +28,25 @@ export const getPackagesData: TGetPackagesData = async (dependenciesList) => {
   );
 };
 
-const isArray: TIsArray = (array) => {
-  if (Array.isArray(array)) {
-    throw new Error();
-  }
+export const isArray: TIsArray = (array) => {
+  return Array.isArray(array);
 };
 
-const isEmpty: TIsEmpty = (line) => {
-  if (!line || line === EMPTY_JSON) {
-    throw new Error(ERROR_MESSAGES.EMPTY_JSON);
-  }
+export const isEmpty: TIsEmpty = (line) => {
+  return !line || line === EMPTY_JSON;
 };
 
 export const validatePackagesTerm: TValidatePackagesTerm = async (
   packagesTerm,
 ) => {
-  isEmpty(packagesTerm);
+  if (isEmpty(packagesTerm)) {
+    throw new Error(ERROR_MESSAGES.EMPTY_JSON);
+  }
   try {
     const json = JSON.parse(packagesTerm);
-    isArray(json);
+    if (isArray(json)) {
+      throw new Error();
+    }
   } catch {
     throw new Error(ERROR_MESSAGES.NOT_A_JSON);
   }

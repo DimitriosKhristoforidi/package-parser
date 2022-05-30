@@ -1,18 +1,18 @@
 import React from 'react';
-import { Space, Typography } from 'antd';
 import PackageInput from '../../components/PackageInputForm';
 import PackagesTable from '../../components/PackagesTable';
 import { mainHeading } from './constants';
-
-const { Title } = Typography;
+import { Stack, Typography } from '@mui/material';
 
 const MainPage: React.FC = () => {
   return (
-    <Space direction='vertical' size={20} style={{ width: '100%' }}>
-      <Title level={2}>{mainHeading}</Title>
+    <Stack spacing={5}>
+      <Typography variant='h2' component='h2'>
+        {mainHeading}
+      </Typography>
       <PackageInput />
       <PackagesTable />
-    </Space>
+    </Stack>
   );
 };
 

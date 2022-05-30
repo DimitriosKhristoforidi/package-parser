@@ -1,10 +1,10 @@
 import React from 'react';
 import { renderWithRedux } from '../../../utils/testUtils';
-import PackagesTable from '../PackagesTable';
+import PackageTableHead from '../PackageTableHead';
 
-describe('Packages Table', () => {
+describe('Package Table Head', () => {
   it('Should match snapshot', () => {
-    const wrapper = renderWithRedux(<PackagesTable />);
+    const wrapper = renderWithRedux(<PackageTableHead />);
 
     expect(wrapper).toMatchSnapshot();
   });

@@ -1,5 +1,5 @@
 import Axios from 'axios';
-import { IApi } from './types/APITypes';
+import { IApi } from './APITypes';
 
 const httpRequest = Axios.create({
   baseURL: 'https://api.npms.io/v2/search',

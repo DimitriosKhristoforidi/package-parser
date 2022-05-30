@@ -12,6 +12,7 @@ export interface IPackage {
 export interface IPackagesState {
   packagesList: IPackage[];
   loading: boolean;
+  alertMessage?: string;
 }
 
 export type TGetPackagesData = (
@@ -20,8 +21,8 @@ export type TGetPackagesData = (
 
 export type TValidatePackagesTerm = (packagesTerm: string) => void;
 
-export type TIsArray = (array: any[]) => void;
+export type TIsArray = (array: any) => boolean;
 
-export type TIsEmpty = (line: string) => void;
+export type TIsEmpty = (line: string) => boolean;
 
 export type TGetEmptyPackage = (name: string) => IPackage;

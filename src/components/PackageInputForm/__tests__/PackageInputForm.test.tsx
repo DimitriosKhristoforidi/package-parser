@@ -1,18 +1,11 @@
 import React from 'react';
-import { screen } from '@testing-library/react';
+import { renderWithRedux } from '../../../utils/testUtils';
 import PackageInputForm from '../PackageInputForm';
-import { beforeEachTest } from '../../../utils/testsUtils';
-import { render } from '../../../utils/testRender';
-import { packageFormSubmitButton } from '../constants';
 
 describe('Package Input Form', () => {
-  beforeEach(beforeEachTest);
+  it('Should match snapshot', () => {
+    const wrapper = renderWithRedux(<PackageInputForm />);
 
-  const renderPackageInputForm = () => render(<PackageInputForm />);
-
-  it('Should: Render button', () => {
-    renderPackageInputForm();
-    const submitButton = screen.getByTestId(packageFormSubmitButton.testId);
-    expect(submitButton.tagName.toLowerCase()).toBe('button');
+    expect(wrapper).toMatchSnapshot();
   });
 });
