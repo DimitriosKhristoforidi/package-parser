@@ -1,11 +1,5 @@
 import React, { useMemo } from 'react';
-import {
-  Chip,
-  Grid,
-  TableBody,
-  TableCell,
-  TableRow,
-} from '@mui/material';
+import { Chip, Grid, TableBody, TableCell, TableRow } from '@mui/material';
 import { IPackageTableBody } from './PackageTableBodyTypes';
 
 const PackageTableBody: React.FC<IPackageTableBody> = ({ packagesList }) => {
@@ -15,18 +9,24 @@ const PackageTableBody: React.FC<IPackageTableBody> = ({ packagesList }) => {
         <TableRow key={idx}>
           <TableCell scope='row'>{packageItem.name}</TableCell>
           <TableCell>{packageItem.description}</TableCell>
+          <TableCell>{packageItem.author?.name}</TableCell>
           <TableCell>
             <Grid container spacing={1}>
-              {packageItem.keywords.map((keyword, idx) => (
+              {packageItem.maintainers.map((maintainer, idx) => (
                 <Grid item key={idx}>
-                  <Chip label={keyword} />
+                  <Chip
+                    color='primary'
+                    variant='outlined'
+                    label={maintainer.name}
+                    size='small'
+                  />
                 </Grid>
               ))}
             </Grid>
           </TableCell>
           <TableCell align='right'>
-            <a target='_blank' href={packageItem.links.npm}>
-              {packageItem.links.npm}
+            <a target='_blank' href={packageItem.homepage}>
+              {packageItem.homepage}
             </a>
           </TableCell>
         </TableRow>

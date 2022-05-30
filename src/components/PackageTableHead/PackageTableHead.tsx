@@ -7,8 +7,9 @@ const PackageTableHead: React.FC = () => {
       <TableRow>
         <TableCell>Title</TableCell>
         <TableCell>Description</TableCell>
-        <TableCell>Tags</TableCell>
-        <TableCell align='right'>NPM link</TableCell>
+        <TableCell>Author</TableCell>
+        <TableCell>Maintainers</TableCell>
+        <TableCell align='right'>Homepage</TableCell>
       </TableRow>
     </TableHead>
   );

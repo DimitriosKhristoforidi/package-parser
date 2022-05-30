@@ -95,13 +95,19 @@ Object {
                   class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1ygcj2i-MuiTableCell-root"
                   scope="col"
                 >
-                  Tags
+                  Author
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1ygcj2i-MuiTableCell-root"
+                  scope="col"
+                >
+                  Maintainers
                 </th>
                 <th
                   class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight MuiTableCell-sizeMedium css-1azl6jz-MuiTableCell-root"
                   scope="col"
                 >
-                  NPM link
+                  Homepage
                 </th>
               </tr>
             </thead>
@@ -204,13 +210,19 @@ Object {
                 class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1ygcj2i-MuiTableCell-root"
                 scope="col"
               >
-                Tags
+                Author
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1ygcj2i-MuiTableCell-root"
+                scope="col"
+              >
+                Maintainers
               </th>
               <th
                 class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight MuiTableCell-sizeMedium css-1azl6jz-MuiTableCell-root"
                 scope="col"
               >
-                NPM link
+                Homepage
               </th>
             </tr>
           </thead>

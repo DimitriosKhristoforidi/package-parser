@@ -11,21 +11,17 @@ import API from '../../api';
 export const getEmptyPackage: TGetEmptyPackage = (name) => {
   return {
     name,
-    description: '-',
-    keywords: [],
-    links: { npm: '' },
+    description: '',
+    author: { name: '' },
+    maintainers: [],
+    homepage: '',
   };
 };
 
 export const getPackagesData: TGetPackagesData = async (dependenciesList) => {
   const promises = dependenciesList.map((dep) => API.getPackage(dep));
 
-  return await Promise.all(promises).then((res) =>
-    res.map(
-      (item, idx) =>
-        item.results[0]?.package || getEmptyPackage(dependenciesList[idx]),
-    ),
-  );
+  return await Promise.all(promises);
 };
 
 export const isArray: TIsArray = (array) => {

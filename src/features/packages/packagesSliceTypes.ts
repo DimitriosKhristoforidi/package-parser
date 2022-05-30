@@ -1,12 +1,18 @@
-export interface IPackageLinks {
-  npm: string;
+export interface IMaintainer {
+  name: string;
+  email: string;
+}
+
+export interface IAuthor {
+  name: string;
 }
 
 export interface IPackage {
   name: string;
   description: string;
-  keywords: string[];
-  links: IPackageLinks;
+  author?: IAuthor;
+  maintainers: IMaintainer[];
+  homepage: string;
 }
 
 export interface IPackagesState {

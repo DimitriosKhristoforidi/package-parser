@@ -2,16 +2,12 @@ import Axios from 'axios';
 import { IApi } from './APITypes';
 
 const httpRequest = Axios.create({
-  baseURL: 'https://api.npms.io/v2/search',
+  baseURL: 'https://registry.npmjs.org/',
 });
 
 const api: IApi = {
   getPackage: async (name) => {
-    const { data } = await httpRequest.get('', {
-      params: {
-        q: name,
-      },
-    });
+    const { data } = await httpRequest.get('' + name);
 
     return data;
   },

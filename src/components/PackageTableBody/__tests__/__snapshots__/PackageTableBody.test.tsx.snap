@@ -15,215 +15,16 @@ Object {
             class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
             scope="row"
           >
-            react
+            @reduxjs/toolkit
           </td>
           <td
             class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
           >
-            React is a JavaScript library for building user interfaces.
+            The official, opinionated, batteries-included toolset for efficient Redux development
           </td>
           <td
             class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
-          >
-            <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
-            >
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-            </div>
-          </td>
-          <td
-            class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-177gid-MuiTableCell-root"
-          >
-            <a
-              href="https://www.npmjs.com/package/react"
-              target="_blank"
-            >
-              https://www.npmjs.com/package/react
-            </a>
-          </td>
-        </tr>
-        <tr
-          class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
-        >
-          <td
-            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
-            scope="row"
-          >
-            react
-          </td>
-          <td
-            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
-          >
-            React is a JavaScript library for building user interfaces.React is a JavaScript library for building user interfaces.React is a JavaScript library for building user interfaces.React is a JavaScript library for building user interfaces.React is a JavaScript library for building user interfaces.
-          </td>
+          />
           <td
             class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
           >
@@ -234,12 +35,12 @@ Object {
                 class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
+                  class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-outlinedPrimary css-1t53hjd-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                   >
-                    react
+                    acemarke
                   </span>
                 </div>
               </div>
@@ -247,12 +48,12 @@ Object {
                 class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
+                  class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-outlinedPrimary css-1t53hjd-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                   >
-                    react
+                    timdorr
                   </span>
                 </div>
               </div>
@@ -260,12 +61,12 @@ Object {
                 class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
+                  class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-outlinedPrimary css-1t53hjd-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                   >
-                    react
+                    gaearon
                   </span>
                 </div>
               </div>
@@ -273,12 +74,12 @@ Object {
                 class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
+                  class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-outlinedPrimary css-1t53hjd-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                   >
-                    react
+                    phryneas
                   </span>
                 </div>
               </div>
@@ -288,95 +89,10 @@ Object {
             class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-177gid-MuiTableCell-root"
           >
             <a
-              href="https://www.npmjs.com/package/react"
+              href="https://redux-toolkit.js.org"
               target="_blank"
             >
-              https://www.npmjs.com/package/react
-            </a>
-          </td>
-        </tr>
-        <tr
-          class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
-        >
-          <td
-            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
-            scope="row"
-          >
-            react_react_react_react_react_react
-          </td>
-          <td
-            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
-          >
-            React is a JavaScript library for building user interfaces.
-          </td>
-          <td
-            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
-          >
-            <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
-            >
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-              <div
-                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-              >
-                <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-                >
-                  <span
-                    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                  >
-                    react
-                  </span>
-                </div>
-              </div>
-            </div>
-          </td>
-          <td
-            class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-177gid-MuiTableCell-root"
-          >
-            <a
-              href="https://www.npmjs.com/package/react"
-              target="_blank"
-            >
-              https://www.npmjs.com/package/react
+              https://redux-toolkit.js.org
             </a>
           </td>
         </tr>
@@ -394,215 +110,16 @@ Object {
           class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
           scope="row"
         >
-          react
+          @reduxjs/toolkit
         </td>
         <td
           class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
         >
-          React is a JavaScript library for building user interfaces.
+          The official, opinionated, batteries-included toolset for efficient Redux development
         </td>
         <td
           class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
-        >
-          <div
-            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
-          >
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-          </div>
-        </td>
-        <td
-          class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-177gid-MuiTableCell-root"
-        >
-          <a
-            href="https://www.npmjs.com/package/react"
-            target="_blank"
-          >
-            https://www.npmjs.com/package/react
-          </a>
-        </td>
-      </tr>
-      <tr
-        class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
-      >
-        <td
-          class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
-          scope="row"
-        >
-          react
-        </td>
-        <td
-          class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
-        >
-          React is a JavaScript library for building user interfaces.React is a JavaScript library for building user interfaces.React is a JavaScript library for building user interfaces.React is a JavaScript library for building user interfaces.React is a JavaScript library for building user interfaces.
-        </td>
+        />
         <td
           class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
         >
@@ -613,12 +130,12 @@ Object {
               class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
             >
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
+                class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-outlinedPrimary css-1t53hjd-MuiChip-root"
               >
                 <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+                  class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                 >
-                  react
+                  acemarke
                 </span>
               </div>
             </div>
@@ -626,12 +143,12 @@ Object {
               class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
             >
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
+                class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-outlinedPrimary css-1t53hjd-MuiChip-root"
               >
                 <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+                  class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                 >
-                  react
+                  timdorr
                 </span>
               </div>
             </div>
@@ -639,12 +156,12 @@ Object {
               class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
             >
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
+                class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-outlinedPrimary css-1t53hjd-MuiChip-root"
               >
                 <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+                  class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                 >
-                  react
+                  gaearon
                 </span>
               </div>
             </div>
@@ -652,12 +169,12 @@ Object {
               class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
             >
               <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
+                class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorPrimary MuiChip-outlinedPrimary css-1t53hjd-MuiChip-root"
               >
                 <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+                  class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                 >
-                  react
+                  phryneas
                 </span>
               </div>
             </div>
@@ -667,95 +184,10 @@ Object {
           class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-177gid-MuiTableCell-root"
         >
           <a
-            href="https://www.npmjs.com/package/react"
+            href="https://redux-toolkit.js.org"
             target="_blank"
           >
-            https://www.npmjs.com/package/react
-          </a>
-        </td>
-      </tr>
-      <tr
-        class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
-      >
-        <td
-          class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
-          scope="row"
-        >
-          react_react_react_react_react_react
-        </td>
-        <td
-          class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
-        >
-          React is a JavaScript library for building user interfaces.
-        </td>
-        <td
-          class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
-        >
-          <div
-            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
-          >
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
-            >
-              <div
-                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-gac2fo-MuiChip-root"
-              >
-                <span
-                  class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
-                >
-                  react
-                </span>
-              </div>
-            </div>
-          </div>
-        </td>
-        <td
-          class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-177gid-MuiTableCell-root"
-        >
-          <a
-            href="https://www.npmjs.com/package/react"
-            target="_blank"
-          >
-            https://www.npmjs.com/package/react
+            https://redux-toolkit.js.org
           </a>
         </td>
       </tr>
